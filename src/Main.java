@@ -13,15 +13,12 @@ public class Main {
 
 class Exercise_1 {
     public static void main(String[] args) {
-        // Виклик методу для обчислення площі кола з радіусом 5
         double radius = 5.0;
         double area = calculateCircleArea(radius);
         System.out.println("Площа кола з радіусом " + radius + " дорівнює: " + area);
     }
-
-    // Метод для обчислення площі кола за заданим радіусом
     public static double calculateCircleArea(double radius) {
-        // Формула для обчислення площі кола: π * r^2, де π (pi) приблизно дорівнює 3.14159
+
         return Math.PI * radius * radius;
     }
 }
