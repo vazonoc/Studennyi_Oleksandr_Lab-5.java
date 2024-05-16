@@ -3,20 +3,12 @@
 public class Main {
 
         public static void main(String[] args) {
-            // Виклик методу main з кожного класу в зазначеному порядку
             Exercise_1.main(args);
             Exercise_2.main(args);
             Exercise_3.main(args);
             Exercise_4.main(args);
 
         }
-        public static class Zav_1 {
-            public static void main(String[] args) {
-                // Виклик методу main з кожного класу в зазначеному порядку
-                Exercise_1_1.main(args);
-
-            }
-    }
 }
 
 class Exercise_1 {
